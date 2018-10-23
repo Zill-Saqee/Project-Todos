@@ -1,0 +1,11 @@
+.dsction    {     }
+h4,h6 { text-align: left;margin-left: 20px;  }
+.mdd { height: 30vh;padding-top: 40px; }
+#tasksofd   { padding-left: 20px;padding-right: 20px;height: 70vh;border: 1px solid black; }
+ p{height: 1px;border-right: #ccc;}
+ ul { list-style: none;height: 388px;overflow: auto;  }
+ ul li{margin-top: 8px; padding: 10px;height: 80px;font-size:200%;border-left: 2px solid brown;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;border-right: 1px solid #ccc; }
+ .rb {  display: none; }
+ a:hover { color: blueviolet;cursor: pointer; }
+ ul li span{ float: right; }
+ ul li span:hover{ color: red;cursor: pointer; }

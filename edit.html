@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Edit Todo</title>
+  </head>
+
+  <body onload="edit();">
+    <div class="container">
+        <div class="row">
+            <div class="col s4 sction #e3f2fd blue lighten-5" id="left">
+                <h6>Project To-Do</h6><br><br><br>
+                <a href="dashboard.html">
+                    <span><i class="material-icons prefix">settings</i>My Day</span>
+                </a>
+               <a href="dashboard.html" onclick="about();">
+                 <span> <i class="material-icons icn">star</i>About</span>
+               </a>
+                <a href="edit.html" onclick="removeall2();">
+                 <span> <i class="material-icons">star</i>Remove All</span>
+                </a> <hr>
+                <a href="dashboard.html">
+                    <span><i class="material-icons">storage</i> Tasks</span>
+                </a>
+               
+            </div>
+            <!--RIGHT SECTION GOES HERE-->
+            <div class="col s8 blue sction">
+                    <a href="dashboard.html" class="right">
+                            <i class="material-icons ">arrow_back</i>
+                    </a>
+                <h4 id="et">Edit Todo</h4>
+                <form action="index.html" onsubmit="return updateme();">
+                    <i class="material-icons prefix" title="Edit Title below">create</i><input type="text" id="t" placeholder="Title" title="Edit title here"> 
+                    <i class="material-icons prefix" title="Edit Location below">location_on</i><input id="l" type="text" placeholder="Location" title="Edit Location here">
+                    <i class="material-icons prefix" title="Edit Description below">create</i><input id="d" type="text" placeholder="Description" title="Edit Description here">
+                    <input type="submit" value="UPDATE">
+                </form>
+                    <a href="#" class="right  rb">
+                        <i class="material-icons">control_point</i>
+                    </a>
+            </div>
+        </div>
+    </div>
+        
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/edit.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script>
+
+    </script>    
+
+
+  </body>
+</html>
+      

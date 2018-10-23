@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>My Day</title>
+  </head>
+
+  <body onload="showtasks();">
+    <div class="container">
+        <div class="row">
+             <!--LEFT SECTION STARTS HERE-->
+            <div class="col s4 sction #e3f2fd blue lighten-5" id="left">
+                <h6>Project To-Do</h6><br><br><br>
+                <a href="index.html">
+                    <span><i class="material-icons prefix">settings</i>Add New Task</span>
+                </a>
+               <a href="dashboard.html" onclick="about();">
+                 <span> <i class="material-icons icn">star</i>About</span>
+               </a>
+                <a href="#" onclick="removeall();">
+                 <span> <i class="material-icons">star</i>Remove All</span>
+                </a> <hr>
+                <a href="dashboard.html">
+                    <span><i class="material-icons">storage</i>Tasks</span>
+                </a>
+               
+            </div>
+             <!--RIGHT SECTION STARTS HERE-->
+             <div class="col s8  sction dsction #f9fbe7 lime lighten-5">
+                 <div class="row mdd blue">
+                    <h4 id="md">My Day</h4>
+                    <h6>Today</h6>
+                 </div>
+                 <div id="tasksofd " class="black-text">
+                    
+                    <ul id="tasks"></ul>
+
+                    <a href="#" class="right  rb ">
+                        <i class="material-icons black">control_point</i>
+                    </a>
+                 </div>
+                   
+             </div>
+        </div>
+    </div>
+        
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/edit.js"></script>
+    <script>
+
+        // function showtasks()
+        //     {
+        //         if(localStorage.getItem("objects")===null)
+        //             {
+        //             var node=document.createElement("h5");
+        //             var msg=document.createTextNode("No tasks added.");
+        //             node.appendChild(msg);
+        //             var cntnr=document.getElementById("tasks");
+        //             cntnr.appendChild(node);
+        //             }
+        //         else    
+        //             {
+        //                 var array=JSON.parse(localStorage.getItem("objects"));
+        //                 for (var i=0;i<array.length;i++)
+        //                     {
+        //                         var n=document.createElement("a");
+        //                         n.href="edit.html";
+        //                         var node=document.createElement("li");
+        //                         var msg=document.createTextNode("My Task");
+        //                         n.appendChild(msg);
+        //                         node.appendChild(n);
+        //                         var cntnr=document.getElementById("tasks");
+        //                         cntnr.appendChild(node);
+        //                     }
+        //             }
+
+        //     }
+
+        setTimeout(function(){alert("click at any task to edit if any available in schedule.")},1500);
+
+    </script>
+
+  </body>
+</html>
+      

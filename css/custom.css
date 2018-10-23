@@ -1,0 +1,16 @@
+body    {  color: white;  } 
+.sction {height:95vh; margin: 10px 0 0 0;position: relative; }
+#left   { color:black;  } h4{text-align: center;}
+i { margin-bottom: -30px; margin-right: 20px; }  
+span   { display: block;padding: 20px 0 20px 40px;font-size: 12px; }
+input {  margin-top: 60px;}
+input[type=submit]{ width: 98%; line-height: 28px;background-color: aquamarine;border: 0px; margin-top: 30px;}
+input[type=submit]:hover{ cursor: pointer; }
+input[type=submit]:active{ background-color: steelblue; }
+span,p{color: black;}
+.right  {   color: white;margin-right: -30px; }
+.rb { position: absolute;bottom: 0;right: 10px;font-size: 30px; }
+.rb i{font-size: 40px;}
+input[type=text]:focus{ background-color:white;}
+.hide{display: none;}
+/* dashboard */

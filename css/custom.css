@@ -1,5 +1,5 @@
-body    {  color: white;  } 
-.sction {height:95vh; margin: 10px 0 0 0;position: relative; }
+body    {  color: white; padding:1% 0; } 
+.sction {height: 550px; margin: 0px 0 0 0;position: relative; }
 #left   { color:black;  } h4{text-align: center;}
 i { margin-bottom: -30px; margin-right: 20px; }  
 span   { display: block;padding: 20px 0 20px 40px;font-size: 12px; }
